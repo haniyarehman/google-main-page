@@ -1,0 +1,93 @@
+*{margin: 0;
+padding: 0;}
+
+body{background: white;
+font-family: arial,sans-serif;
+font-size: 14px;}
+ 
+  h1#logo{width:269px;
+  height:95px;
+  background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png)top left no-repeat;
+  background-size: 100%;
+  text-indent: -9999px;
+  margin: 0 auto;
+
+  }
+  #container{width: 580px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;}
+
+  input[type="search"]{width: 570px;
+  height:44px;
+  padding: 5px;
+  margin:20px;
+  border: solid 1px #ccc;
+
+  border-radius:20px;
+  border
+ 
+
+
+  }
+  input[type="submit"]{
+ 
+  padding:10px 14px ;
+  margin:10px 5px;
+  color: #777;
+  background: #e6e7eb;
+  text-align: center;
+  border:solid 1px #e6e7eb;
+  font-size: 14px;
+  border-radius:4px;
+
+
+  }
+  input[type="submit"]:hover{
+  cursor: pointer;
+  border-color: #b0b1b5;
+  background: #f0f1f5;
+  }
+  small{
+  display: block;
+  margin: 10px 0 0;
+  font-size: 13px;
+  }
+  a:link{
+  text-decoration: none;
+  }
+  nav#main{
+  text-align:right;
+  padding: 13px 20px;
+  margin: 10px;
+  font-size: 13px;
+ 
+  }
+  nav#main ul li {
+  display: inline;
+  padding: 0 5px;
+ 
+ 
+  }
+  .app {font-size: 20px;
+  color:#838487}
+  .user{font-size: 29px;
+  color:#0e406e}
+ 
+
+ 
+  #sign{padding: 5px 6px;
+  }
+
+  nav#foot{position:absolute;
+  text-align:right;
+  bottom:0;
+  display:block;
+  padding:10px;
+ 
+  }
+nav#foot ul li {
+  display: inline;
+  padding: 0 5px;
+
+  /*<i class="fas fa-search"></i>*/ 
